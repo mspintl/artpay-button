@@ -14,6 +14,14 @@ import "/style.css";
         button.className = "artpay-button";
         button.innerHTML = `Paga con ArtPay`;
 
+        button.style.backgroundColor = "#4CAF50";
+        button.style.color = "white";
+        button.style.border = "none";
+        button.style.padding = "15px 32px";
+        button.style.textAlign = "center";
+        button.style.fontSize = "16px";
+        button.style.cursor = "pointer";
+
         button.addEventListener("click", function () {
             const event = new CustomEvent("artpay:click", {
                 detail: { message: "Bottone ArtPay cliccato", timestamp: Date.now() },
