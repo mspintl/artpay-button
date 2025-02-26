@@ -1,0 +1,18 @@
+.artpay-button {
+  color: #fff;
+  cursor: pointer;
+  background: #000;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: inline-flex;
+}
+
+.artpay-button img {
+  vertical-align: middle;
+  height: 20px;
+}
+/*# sourceMappingURL=index.bbd61ee1.css.map */

@@ -1,0 +1,20 @@
+{
+  "name": "artpay-button",
+  "version": "1.0.0",
+  "description": "Bottone di pagamento ArtPay per l'integrazione nei siti web esterni.",
+  "main": "dist/pay-button.js",
+  "scripts": {
+    "dev": "npm run build && parcel test/index.html",
+    "build": "terser src/index.js -o dist/pay-button.js --compress --mangle",
+    "test": "echo 'No test configured yet'",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "terser": "^5.20.0"
+  },
+  "keywords": ["payment", "button", "artpay", "integration"],
+  "author": "@giacomosx - ArtPay Team",
+  "license": "MIT"
+}
