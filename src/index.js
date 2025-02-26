@@ -1,5 +1,3 @@
-import "/style.css";
-
 (function () {
     function createArtPayButton() {
         const targetSelector = "[data-artpay-button]";
