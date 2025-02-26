@@ -16,14 +16,14 @@ document.head.appendChild(link);
 
         const button = document.createElement("button");
         button.className = "artpay-button";
-        button.innerHTML = `Paga con ArtPay`;
+        button.innerHTML = `Paga con <span style="background-color: #3F55E9; border-radius: 8px; padding: 4px 8px">artpay</span>`;
 
         button.style.backgroundColor = '#241C3A'
         button.style.color = "white";
         button.style.border = "none";
-        button.style.padding = "8px 24px";
+        button.style.padding = "12px 24px";
         button.style.textAlign = "center";
-        button.style.fontSize = "18px";
+        button.style.fontSize = "20px";
         button.style.cursor = "pointer";
         button.style.width = "100%";
         button.style.borderRadius = "16px";
