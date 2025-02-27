@@ -45,10 +45,11 @@ document.head.appendChild(link);
         button.style.fontWeight = "500";
         button.style.cursor = "pointer";
         button.style.width = "100%";
-        button.style.borderRadius = "20px";
+        button.style.borderRadius = "45px";
         button.style.fontFamily = "Inter";
         button.style.transition = "background-color 0.3s ease";
         button.style.maxWidth = "375px";
+        button.style.minWidth = "234px"
         button.style.display = 'flex'
         button.style.justifyContent = 'center'
         button.style.alignItems = 'center'
