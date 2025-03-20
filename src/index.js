@@ -31,8 +31,6 @@ document.head.appendChild(link);
                         </defs>
                     </svg> `
 
-            /*<span style="background-color: #3F55E9; border-radius: 8px; padding: 4px 8px">artpay</span>*/
-
         const button = document.createElement("button");
         button.className = "artpay-button";
         button.innerHTML = `Paga con ${logo}`;
@@ -64,13 +62,13 @@ document.head.appendChild(link);
             button.style.backgroundColor = '#241C3A';
         })
 
-        button.addEventListener("click", function () {
+        /*button.addEventListener("click", function () {
             const event = new CustomEvent("artpay:click", {
                 detail: {message: "Bottone ArtPay cliccato", timestamp: Date.now()},
             });
             document.dispatchEvent(event);
         });
-
+*/
         targetElement.appendChild(button);
     }
 
