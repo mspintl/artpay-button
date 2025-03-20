@@ -117,7 +117,7 @@ const createArtPayButton = () => {
     iconTooltip.addEventListener("mouseleave", () => {tooltip.style.opacity = "0";});
 
     iconTooltip.addEventListener("touchstart", () => { tooltip.style.opacity = "1";});
-    iconTooltip.addEventListener("touchend", () => { tooltip.style.opacity = "1";});
+    iconTooltip.addEventListener("touchend", () => { tooltip.style.opacity = "0";});
 }
 
 
