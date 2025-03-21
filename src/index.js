@@ -58,14 +58,17 @@ const createArtPayButton = () => {
     Object.assign(iconTooltip.style, {
         fontFamily: "Inter",
         display: 'flex',
+        opacity: '0.75',
         justifyContent: 'center',
         alignItems: 'center',
-        color: "white",
-        backgroundColor: "#3E4EEC",
-        maxWidth: "46px",
-        maxHeight: "46px",
-        minWidth: "46px",
-        minHeight: "46px",
+        color: "#3E4EEC",
+        border: "1px solid",
+        borderColor: "#3E4EEC",
+        backgroundColor: "transparent",
+        maxWidth: "36px",
+        maxHeight: "36px",
+        minWidth: "36px",
+        minHeight: "36px",
         fontSize: "18px",
         borderRadius: "100%",
         cursor: 'pointer'
@@ -116,16 +119,20 @@ const createArtPayButton = () => {
 
     iconTooltip.addEventListener("mouseenter", () => {
         tooltip.style.opacity = "1";
+        iconTooltip.style.opacity = "1";
     });
     iconTooltip.addEventListener("mouseleave", () => {
         tooltip.style.opacity = "0";
+        iconTooltip.style.opacity = "0.75";
     });
 
     iconTooltip.addEventListener("touchstart", () => {
         tooltip.style.opacity = "1";
+        iconTooltip.style.opacity = "1";
     });
     iconTooltip.addEventListener("touchend", () => {
         tooltip.style.opacity = "0";
+        iconTooltip.style.opacity = "0.75";
     });
 }
 
