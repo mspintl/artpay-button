@@ -8,7 +8,7 @@ Il pulsante viene generato automaticamente all'interno di un `<div>` con l'attri
 Per utilizzare il pulsante, è necessario includere il seguente script nel proprio sito web, preferibilmente prima della chiusura del tag `<body>`:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/mspintl/artpay-button/dist/pay-button.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mspintl/artpay-button@latest/dist/pay-button.js"></script>
 ```
 
 ## Utilizzo
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <h2>Pagamento con ArtPay</h2>
     <div data-artpay-button></div>
 
-    <script src="https://cdn.jsdelivr.net/gh/mspintl/artpay-button/dist/pay-button.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mspintl/artpay-button@latest/dist/pay-button.js"></script>
 
     <script>
     document.addEventListener("DOMContentLoaded", () => {

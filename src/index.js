@@ -78,22 +78,22 @@ const createArtPayButton = () => {
     const tooltip = document.createElement("p");
 
     Object.assign(tooltip.style, {
-        maxWidth: "150px",
+        maxWidth: "300px",
         color: "white",
         fontSize: "14px",
         fontFamily: "Inter",
-        padding: '12px',
+        padding: '10px',
         backgroundColor: "#3E4EEC",
         position: "absolute",
         borderRadius: "8px",
         right: "0",
         top: "0",
-        transform: "translateY(-150%)",
+        transform: "translateY(-130%)",
         opacity: "0",
         transition: "opacity 0.3s ease, transform 0.3s ease"
     });
 
-    tooltip.innerHTML = 'Lorem ipsum dolor sit amet, consectetur.';
+    tooltip.innerHTML = 'Scegli di pagare a rate. Clicca il bottone e potrai concludere l’acquisto con opzioni di pagamento rateale offerte dai partner di artpay con flessibilità e in totale sicurezza.';
     targetElement.appendChild(tooltip);
 
     const arrow = document.createElement("span");
@@ -114,13 +114,20 @@ const createArtPayButton = () => {
     tooltip.appendChild(arrow);
 
 
-    iconTooltip.addEventListener("mouseenter", () => { tooltip.style.opacity = "1";});
-    iconTooltip.addEventListener("mouseleave", () => {tooltip.style.opacity = "0";});
+    iconTooltip.addEventListener("mouseenter", () => {
+        tooltip.style.opacity = "1";
+    });
+    iconTooltip.addEventListener("mouseleave", () => {
+        tooltip.style.opacity = "0";
+    });
 
-    iconTooltip.addEventListener("touchstart", () => { tooltip.style.opacity = "1";});
-    iconTooltip.addEventListener("touchend", () => { tooltip.style.opacity = "0";});
+    iconTooltip.addEventListener("touchstart", () => {
+        tooltip.style.opacity = "1";
+    });
+    iconTooltip.addEventListener("touchend", () => {
+        tooltip.style.opacity = "0";
+    });
 }
-
 
 
 function getArtPayLogo() {
