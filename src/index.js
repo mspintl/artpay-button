@@ -19,7 +19,7 @@ const createArtPayButton = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        gap: '10px',
+        gap: '5px',
         maxWidth: '375px',
         position: 'relative'
     });
@@ -62,10 +62,10 @@ const createArtPayButton = () => {
         alignItems: 'center',
         color: "white",
         backgroundColor: "#3E4EEC",
-        maxWidth: "48px",
-        maxHeight: "48px",
-        minWidth: "48px",
-        minHeight: "48px",
+        maxWidth: "46px",
+        maxHeight: "46px",
+        minWidth: "46px",
+        minHeight: "46px",
         fontSize: "18px",
         borderRadius: "100%",
         cursor: 'pointer'
